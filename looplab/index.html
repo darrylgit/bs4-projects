@@ -9,8 +9,9 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Bootstrap Theme</title>
 </head>
-<body>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+
+<body data-spy="scroll" data-target="#main-nav" id="home">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
     <div class="container">
       <a href="index.html" class="navbar-brand">LoopLAB</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -152,6 +153,148 @@
     </div>
   </section>
 
+  <!-- CREATE HEAD -->
+  <section id="create-head-section" class="bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="display-4">Create</h1>
+          <p class="lead">Export cillum sunt duis sunt velit multos fore culpa anim legam labore labore
+            aliqua irure legam elit magna tempor tempor</p>
+            <a href="#" class="btn btn-outline-light">Find Out More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREATE SECTION -->
+  <section id="create-section" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-2">
+          <img src="img/create-section1.jpg" alt="Man holding smartphone" class="img-fluid mb-3 rounded-circle">
+        </div>
+        <div class="col-md-6 order-1">
+          <h3>Create Your Passion</h3>
+          <p>Eram nisi culpa tempor quem quid legam anim enim nulla tamen quae quid enim
+            minim nulla summis fugiat multos veniam</p>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Tamen tamen export summis tempor eram esse quem multos malis cillum culpa duis
+                anim multos
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Tamen tamen export summis tempor eram esse quem multos malis cillum culpa duis
+                anim multos
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHARE HEAD -->
+  <section id="share-head-section" class="bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="display-4">Share</h1>
+          <p class="lead">Export cillum sunt duis sunt velit multos fore culpa anim legam labore labore
+            aliqua irure legam elit magna tempor tempor</p>
+            <a href="#" class="btn btn-outline-light">Find Out More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHARE SECTION -->
+  <section id="share-section" class="bg-light text-muted py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/share-section1.jpg" alt="Man holding smartphone" class="img-fluid mb-3 rounded-circle">
+        </div>
+        <div class="col-md-6">
+          <h3>Share What Your Create</h3>
+          <p>Eram nisi culpa tempor quem quid legam anim enim nulla tamen quae quid enim
+            minim nulla summis fugiat multos veniam</p>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Tamen tamen export summis tempor eram esse quem multos malis cillum culpa duis
+                anim multos
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Tamen tamen export summis tempor eram esse quem multos malis cillum culpa duis
+                anim multos
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-4">
+          <h3>LoopLAB</h3>
+          <p>Copyright &copy; <span id="year"></span></p>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CONTACT MODAL -->
+  <div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Us</h5>
+            <button class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="Name">Name</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary btn-block">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -161,6 +304,28 @@
   <script>
     //Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+    //Init Scrollspy
+    $('body').scrollspy({target: '#main-nav'});
+
+    $('#main-nav a').on('click', function(e) {
+      //Check for a hash value
+      if(this.hash !== ''){
+        //Prevent default behavior
+        e.preventDefault();
+
+        //Store hash
+        const hash = this.hash;
+
+        //Animate smooth scroll
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function() {
+          //Add hash to URL after scroll
+          window.location.hash = hash;
+        });
+      }
+    });
   </script>
 </body>
 </html>
