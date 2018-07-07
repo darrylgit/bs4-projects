@@ -47,7 +47,10 @@ body {
   }
 
   .fab:hover {
-    font-size: 28px;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
   }
 
   .card:hover {
@@ -62,10 +65,6 @@ body {
       color: white !important;
     }
   }
-
-
-
-
 }
 
 
