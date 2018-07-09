@@ -16,17 +16,25 @@ body {
 .carousel-caption h1 {
   text-shadow:
   3px 3px 0px #0d0d0d,
+  3px -1px 0px #0d0d0d,
   -1px -1px 0px #0d0d0d,
   -1px 3px 0px #0d0d0d,
-  3px -1px 0px #0d0d0d;
+  0px 3px 0px #0d0d0d,
+  0px -1px 0px #0d0d0d,
+  -1px 0px 0px #0d0d0d,
+  3px 0px 0px #0d0d0d;
 }
 
 .carousel-caption p {
   text-shadow:
   1px 1px 0px #0d0d0d,
-  -1px -1px 0px #0d0d0d,
+  1px -1px 0px #0d0d0d,
   -1px 1px 0px #0d0d0d,
-  1px -1px 0px #0d0d0d;
+  -1px -1px 0px #0d0d0d,
+  0px 1px 0px #0d0d0d,
+  0px -1px 0px #0d0d0d,
+  -1px 0px 0px #0d0d0d,
+  1px 0px 0px #0d0d0d,
 }
 
 
