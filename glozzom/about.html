@@ -74,7 +74,114 @@
     </div>
   </section>
 
+<!-- ICON BOXES -->
+<section id="icon-boxes" class="p-5">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-md-4">
+        <div class="card bg-danger text-white text-center">
+          <div class="card-body">
+            <i class="fas fa-building fa-3x"></i>
+            <h3>Sample Heading</h3>
+            Anim fore elit magna eram velit fore summis enim culpa.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-dark text-white text-center">
+          <div class="card-body">
+            <i class="fas fa-bullhorn fa-3x"></i>
+            <h3>Sample Heading</h3>
+            Anim fore elit magna eram velit fore summis enim culpa.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-danger text-white text-center">
+          <div class="card-body">
+            <i class="fas fa-comments fa-3x"></i>
+            <h3>Sample Heading</h3>
+            Anim fore elit magna eram velit fore summis enim culpa.
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="row mb-4">
+      <div class="col-md-4">
+        <div class="card bg-dark text-white text-center">
+          <div class="card-body">
+            <i class="fas fa-box fa-3x"></i>
+            <h3>Sample Heading</h3>
+            Anim fore elit magna eram velit fore summis enim culpa.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-danger text-white text-center">
+          <div class="card-body">
+            <i class="fas fa-credit-card fa-3x"></i>
+            <h3>Sample Heading</h3>
+            Anim fore elit magna eram velit fore summis enim culpa.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-dark text-white text-center">
+          <div class="card-body">
+            <i class="fas fa-coffee fa-3x"></i>
+            <h3>Sample Heading</h3>
+            Anim fore elit magna eram velit fore summis enim culpa.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="p-4 bg-dark text-white">
+  <div class="container">
+    <h2 class="text-center">Testimonials</h2>
+    <div class="row text-center">
+      <div class="col">
+        <div class="slider">
+          <div>
+            <blockquote class="blockquote">
+              <p class="mb-0">
+                Legam esse magna dolore sunt multos dolore minim labore velit.
+              </p>
+              <footer class="blockquote-footer">John Doe from
+                <cite title="Company 1">Company 1</cite>
+              </footer>
+            </blockquote>
+          </div>
+          <div>
+            <blockquote class="blockquote">
+              <p class="mb-0">
+                Quem aute fugiat fore quid irure quid veniam.
+              </p>
+              <footer class="blockquote-footer">Mike Portnoy from
+                <cite title="Dream Theater">Dream Theater</cite>
+              </footer>
+            </blockquote>
+          </div>
+          <div>
+            <blockquote class="blockquote">
+              <p class="mb-0">
+                Sint sint quem fore elit quis magna ipsum dolore tempor noster export velit
+                dolor quid.
+              </p>
+              <footer class="blockquote-footer">Dave Mustaine from
+                <cite title="Megadeth">Megadeth</cite>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
   <!-- FOOTER -->
@@ -100,6 +207,12 @@
   <script>
     //Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+    $('.slider').slick({
+      infinite: true,
+      slideToShow: 1,
+      slideToScroll: 1
+    })
 
   </script>
 </body>
