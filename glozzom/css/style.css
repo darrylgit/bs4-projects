@@ -110,8 +110,30 @@ body {
   margin-top: -50px
 }
 
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: white;
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background-color: #333;
+}
+
 @media (max-width: 767.98px) {
   #info, #about {
     text-align: center;
+  }
+
+  #plan1, #plan2 {
+    margin-bottom: 1rem;
+  }
+
+  #iconrow1, #iconrow2 {
+    margin-bottom: 0 !important;
   }
 }
