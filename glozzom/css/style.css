@@ -119,9 +119,21 @@ body {
   text-decoration: none;
 }
 
+#faq a:hover {
+  color: #bbb;
+}
 #faq .card-body,
 #faq .card-header {
   background-color: #333;
+}
+
+#main-footer {
+  background-color: #000;
+  color: white;
+}
+
+.uncheck {
+  color: rgba(0, 0, 0, 0.0)
 }
 
 @media (max-width: 767.98px) {
